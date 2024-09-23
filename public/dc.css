@@ -16,9 +16,6 @@ body {
 
 #vis {
   text-align: center;
-  margin-right: 40px;
-  margin-left: 50px;
-  margin-right: 100px;
 }
 
 #db {
@@ -43,5 +40,5 @@ body {
 
 #vs {
   margin-left: 50px;
-  margin-right: 100px;
+  margin-right: 50px;
 }
