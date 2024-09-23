@@ -10,3 +10,35 @@ body {
   align-items: center;
   border-style: solid;
 }
+
+#vis {
+  text-align: center;
+  margin-right: 40px;
+  margin-left: 50px;
+  margin-right: 100px;
+}
+
+#db {
+  display: flex;
+  justify-content: center;
+}
+
+#cb {
+  display: flex;
+  justify-content: center;
+}
+
+#dt {
+  display: flex;
+  justify-content: center;
+}
+
+#ct {
+  display: flex;
+  justify-content: center;
+}
+
+#vs {
+  margin-left: 50px;
+  margin-right: 100px;
+}
