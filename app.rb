@@ -17,9 +17,23 @@ get("/fight") do
   @dparsed = JSON.parse(@dstring)
   @cparsed = JSON.parse(@cstring)
 
-  @dfighter = @dparsed.fetch("message")
-  @cfighter = @cparsed[0]["url"]
+  $dfighter = @dparsed.fetch("message")
+  $cfighter = @cparsed[0]["url"]
 
   erb(:match)
+
+end
+
+get("/dw") do
+
+  @winner = $dfighter.to_s
+  erb(:dogs)
+
+end
+
+get("/cw") do
+
+  @winner = $cfighter.to_s
+  erb(:cats)
 
 end
