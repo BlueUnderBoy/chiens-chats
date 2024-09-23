@@ -1,4 +1,11 @@
-# sinatra-template
+CATS vs DOGS! This app allows you to pick a random dog and cat to duel and then you get to decide the winner. You can play as many rounds as you want!
+
+There were two api's used for this project. 
+Dog API: https://dog.ceo/dog-api/
+
+Cat API: https://thecatapi.com/
+
+<!--# sinatra-template
 
 Use this repository to create new Sinatra apps. 
 
@@ -16,3 +23,4 @@ configure do
   set(:database, { adapter: "sqlite3", database: "db/development.sqlite3" })
 end
 ```
+-->
